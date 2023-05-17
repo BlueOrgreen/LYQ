@@ -1,0 +1,12 @@
+.btn {
+    @apply tw-flex tw-justify-center tw-items-center tw-min-w-[80px] tw-h-[36px] tw-rounded-[24px] tw-py-[20px];
+    background-color: red
+}
+
+.btn.big {
+    @apply tw-min-w-[100px] tw-h-[36px] tw-rounded-[24px] tw-py-[20px];
+}
+
+.btn.small {
+    @apply tw-min-w-[72px] tw-h-[36px] tw-rounded-[24px] tw-py-[20px];
+}

@@ -1,0 +1,16 @@
+{
+  "id": "4069379",
+  "name": "lyb",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4936482",
+      "name": "close-circle-fill",
+      "font_class": "close-circle-fill",
+      "unicode": "e844",
+      "unicode_decimal": 59460
+    }
+  ]
+}

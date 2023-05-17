@@ -1,0 +1,8 @@
+.layout {
+    @apply tw-min-h-screen;
+}
+
+.video {
+    @apply tw-h-[500px] tw-object-cover tw-sticky tw-top-[52px];
+    z-index: -10;
+}

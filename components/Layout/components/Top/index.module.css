@@ -1,0 +1,39 @@
+.top {
+    @apply tw-flex tw-h-[52px] tw-items-center tw-px-[30px];
+    @apply tw-justify-between tw-sticky tw-top-0;
+    background: var(--gray-10);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.logoBox {
+    @apply tw-flex tw-items-center tw-font-kaiti tw-font-semibold;
+}
+
+.logoText {
+    @apply tw-ml-[10px] tw-text-[20px];
+}
+
+.menu {
+    @apply tw-flex tw-items-center tw-justify-center;
+}
+
+.menu > div {
+    @apply tw-text-[14px] tw-font-semibold tw-w-[80px] tw-h-[32px] tw-rounded-[20px];
+    @apply tw-flex tw-items-center tw-justify-center;
+    cursor: initial;
+}
+
+.menu > div.active {
+    background: #3B73F0;
+    color: var(--gray-10);
+    cursor: pointer;
+} 
+
+.userHead {
+    @apply tw-flex tw-justify-center tw-items-center;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    background-image: linear-gradient(180deg, #7BE7ff 2%, #1E85E2 2%);
+}
