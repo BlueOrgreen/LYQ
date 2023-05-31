@@ -1,0 +1,100 @@
+.head {
+    @apply tw-flex tw-justify-between tw-items-center;
+    padding: var(--padding-20);
+    padding-bottom: 0;
+}
+
+.modalName {
+    @apply tw-text-[16px] tw-font-semibold;
+    color: var(--primary-color);
+}
+
+.main {
+    @apply tw-h-full;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: var(--padding-20);
+    /* background-color: lightblue; */
+}
+
+/* 设置滚动条样式 */
+.main::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+  
+.main::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.main::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.card {
+    @apply tw-h-[240px];
+    background: lightcoral;
+}
+
+.comment {
+    @apply tw-my-[12px] tw-text-[15px];
+}
+
+.message {
+    @apply tw-h-[56px] tw-w-full tw-p-[8px] tw-font-hpscw3;
+    border: 1px solid rgba(148,148,148,0.5);
+    background: none;
+    resize: none;
+}
+
+.comment > div:nth-child(2) {
+    @apply tw-w-full tw-flex tw-mt-[8px] tw-items-center tw-justify-between;
+}
+
+.commentContent {
+    @apply tw-mt-[20px] tw-mb-[200px];
+}
+
+/* input标签默认display:inline */
+.comment input {
+    @apply tw-inline-block tw-h-[36px] tw-p-[8px];
+    display: inline-block !important;
+    border: 1px solid rgba(148,148,148,0.5);
+}
+
+.commentContent > div:nth-child(1) {
+    @apply tw-text-[14px] tw-font-semibold;
+    color: var(--gray-0);
+}
+
+.content {
+    @apply tw-my-[12px];
+}
+
+.content > li {
+    @apply tw-h-[95px] tw-flex tw-mb-[16px];
+    /* background-color: aquamarine; */
+}
+
+.content .avator {
+    @apply tw-w-[28px] tw-h-[28px] tw-rounded-full;
+    background: linear-gradient(180deg, rgba(245,65,65,0.50) 0%, #F43F3F 100%);
+}
+
+
+.content .title > span:nth-child(1) {
+    @apply tw-text-[14px] tw-font-semibold;
+    color: var(--gray-0);
+}
+
+.content .title > span:nth-child(2) {
+    @apply tw-text-[12px] tw-font-semibold;
+    color: var(--gray-2);
+}
+
+.content .inner {
+    @apply tw-text-[14px];
+    color: var(--gray-0);
+}

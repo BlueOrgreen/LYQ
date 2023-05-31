@@ -4,6 +4,7 @@
     background: var(--gray-10);
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
+    z-index: 10;
 }
 
 .logoBox {
@@ -11,7 +12,7 @@
 }
 
 .logoText {
-    @apply tw-ml-[10px] tw-text-[20px];
+    @apply tw-ml-[10px] xs:tw-text-[20px] tw-text-[16px];
 }
 
 .menu {

@@ -1,0 +1,7 @@
+.modal {
+    @apply tw-w-[360px] tw-h-full tw-fixed tw-top-[52px] tw-right-[0] tw-z-[50];
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow:  0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(20px);
+}
+

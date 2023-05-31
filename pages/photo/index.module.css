@@ -1,0 +1,46 @@
+.photo {
+    @apply tw-min-h-screen;
+}
+
+.title {
+    @apply tw-pt-[40px]
+}
+
+.title > div:nth-child(1) {
+    @apply tw-font-kaiti tw-font-semibold tw-text-[56px];
+    @apply tw-flex tw-justify-center;
+    color: var(--gray-0);
+}
+
+.title > div:nth-child(2) {
+    @apply tw-flex tw-justify-center tw-mt-[10px];
+    color: var(--gray-1);
+}
+
+.label {
+    @apply tw-flex tw-justify-center tw-mt-[40px];
+    color: var(--gray-2);
+}
+
+.label > p {
+    @apply tw-cursor-pointer;
+    padding: 0 14px;
+    line-height: 28px;
+    margin: var(--padding-4);
+}
+
+.label > p.selected {
+    @apply tw-font-semibold;
+    color: var(--gray-1);
+    border: 1px solid  var(--gray-1);
+    border-radius: 14px;
+}
+
+.photoCardContainer {
+    width: 90%;
+    margin: 0 auto;
+    columns: 6;
+    column-gap: 6px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}

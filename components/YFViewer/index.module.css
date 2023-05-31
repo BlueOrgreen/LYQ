@@ -1,0 +1,41 @@
+.yfviewer {
+    @apply tw-fixed tw-top-0 tw-left-0 tw-w-full tw-h-full;
+    /* width: 500px; */
+}
+
+.bg {
+    @apply tw-absolute tw-top-0 tw-left-0 tw-h-full tw-w-full;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+.viewPhoto {
+    @apply tw-absolute tw-w-full tw-h-full;
+    @apply tw-flex tw-justify-center;
+    padding: 80px 450px 0 100px;
+    overflow-y: auto;
+}
+
+.viewPhoto > img {
+    /* max-width: 100%; */
+}
+
+.switch {
+    @apply tw-w-[56px] tw-h-[56px] tw-top-1/2 tw-flex tw-justify-center tw-items-center;
+    @apply tw-absolute tw-rounded-full tw-cursor-pointer;
+    position: absolute;
+    background-color: var(--gray-2); 
+    color: var(--gray-10);
+}
+
+.switch > span {
+    @apply tw-text-[45px];
+}
+
+.switch.switchLeft {
+    left: 20px;
+}
+
+.switch.switchRight {
+    right: 375px;
+}

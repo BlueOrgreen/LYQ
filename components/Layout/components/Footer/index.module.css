@@ -1,0 +1,22 @@
+.footer {
+    @apply tw-h-[200px] tw-px-[120px] tw-py-[20px] tw-text-white;
+    @apply tw-flex tw-justify-between;
+    background: #202020;
+    color: #ccc;
+    font-size: var(--size-12);
+}
+
+.head {
+    @apply tw-flex tw-items-center tw-font-semibold;
+    font-size: 20px;
+    color: var(--gray-10);
+}
+
+.reward {
+    display: flex;
+    justify-self: flex-end;
+}
+
+.link {
+    @apply tw-text-[16px] tw-mb-[12px];
+}

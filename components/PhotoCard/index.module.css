@@ -1,0 +1,50 @@
+.photoCard {
+    @apply tw-relative tw-mb-[6px] tw-cursor-pointer;
+}
+
+
+.photoBg {
+    @apply tw-absolute tw-top-0 tw-left-0 tw-w-full tw-h-full tw-opacity-0;
+    background-color: rgba(0,0,0,0.2);
+    transition: var(--tr);
+}
+
+.photoLike {
+    @apply tw-absolute tw-left-[8px] tw-top-[8px] tw-rounded-[20px];
+    background-color: #fff;
+    border-radius: 20px;
+    height: 30px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    transition: var(--tr);
+}
+
+.photoCard img {
+    transition: var(--tr);
+}
+
+.photoCard:hover .photoBg,
+.photoCard:hover .photoBg {
+    opacity: 1;
+    scale: 1.05;
+}
+
+.photoCard:hover .photoLike {
+    opacity: 1;
+}
+
+.photoCard:hover img {
+    scale: 1.05;
+}
+
+.iconLike {
+    color: var(--gray-2);
+    padding-right: 6px;
+}
+
+.likeDta {
+    color: var(--gray-1);
+}

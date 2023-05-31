@@ -1,6 +1,6 @@
 .btn {
     @apply tw-flex tw-justify-center tw-items-center tw-min-w-[80px] tw-h-[36px] tw-rounded-[24px] tw-py-[20px];
-    background-color: red
+    /* background: var(--gray-0); */
 }
 
 .btn.big {
@@ -9,4 +9,26 @@
 
 .btn.small {
     @apply tw-min-w-[72px] tw-h-[36px] tw-rounded-[24px] tw-py-[20px];
+}
+
+.primary {
+    background: var(--gray-1);
+    color: var(--gray-10);
+}
+
+.secondary {
+    background: var(--gray-10);
+    color: var(--gray-1);
+    border: 1px solid var(--gray-1);
+}
+
+.cprimary {
+    @apply tw-font-semibold;
+    background: var(--primary-color);
+    color: var(--gray-10);
+}
+
+.csecondary {
+    background: var(--gray-10);
+    color: var(--gray-1);
 }

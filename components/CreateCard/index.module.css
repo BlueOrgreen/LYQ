@@ -1,0 +1,38 @@
+.head {
+    @apply tw-flex tw-justify-between tw-items-center;
+    padding: var(--padding-20);
+    padding-bottom: 0;
+}
+
+.modalName {
+    @apply tw-text-[16px] tw-font-semibold;
+    color: var(--gray-1);
+}
+
+.iconClose {
+    @apply tw-text-[20px] tw-font-semibold tw-cursor-pointer;
+    color: var(--gray-2);
+}
+
+.main {
+    @apply tw-h-full;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: var(--padding-20);
+}
+
+/* 设置滚动条样式 */
+.main::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+  
+.main::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.main::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0);
+}

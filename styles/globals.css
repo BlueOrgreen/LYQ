@@ -27,7 +27,7 @@ li {
 img {
     padding: 0;
     margin: 0;
-    display: block;
+    display: inline-block;
 }
 
 a {
@@ -41,3 +41,21 @@ a:hover {
 input,textarea {
     outline: none;
 }
+
+.show-enter {
+    opacity: 0;
+    transform: translateX(100%);
+   }
+
+.show-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 300ms ease-out;
+}
+
+.show-exit-active {
+    opacity: 0;
+    transform: translateX(100%);;
+    transition:  all 300ms ease-out;
+}
+  

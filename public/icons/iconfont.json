@@ -6,6 +6,69 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "248926",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "248927",
+      "name": "left",
+      "font_class": "left",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "4767011",
+      "name": "right",
+      "font_class": "right1",
+      "unicode": "e7eb",
+      "unicode_decimal": 59371
+    },
+    {
+      "icon_id": "4767012",
+      "name": "left",
+      "font_class": "left1",
+      "unicode": "e7ec",
+      "unicode_decimal": 59372
+    },
+    {
+      "icon_id": "7008905",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e6e9",
+      "unicode_decimal": 59113
+    },
+    {
+      "icon_id": "7008886",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    },
+    {
+      "icon_id": "159926",
+      "name": "Message",
+      "font_class": "xiaoxi",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1000821",
+      "name": "talk",
+      "font_class": "talk",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "9207716",
+      "name": "love2",
+      "font_class": "love",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
       "icon_id": "4936482",
       "name": "close-circle-fill",
       "font_class": "close-circle-fill",

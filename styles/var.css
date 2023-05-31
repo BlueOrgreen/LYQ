@@ -1,3 +1,9 @@
+/* HanziPenSC-W3 */
+@font-face {
+    font-family: "HanziPenSC-W3";
+    src: url(../public/font/minHanziPenSCW3.woff2);
+}
+
 :root {
     --font-size-base: 0.875rem;
     --font-family-standard: 'Source Sans Pro', 'Hiragino Sans GB', 'Microsoft Yahei', simsun,
@@ -6,13 +12,17 @@
         simsun, helvetica, arial, sans-serif, monospace;
     --font-family-firacode: 'Fira Code', 'Source Sans Pro', 'Hiragino Sans GB', 'Microsoft Yahei',
         simsun, helvetica, arial, sans-serif, monospace;
-
+    --font-family-hanziPenSc-W3: 'HanziPenSC-W3';
         /* Color */
     --primary-color: #3B73F0;
     --link-color: #1890ff;
     --success-color: #22BF87;
     --warning-color: #F67770;
     --error-color: #F55151;
+    --like: #F67770;
+
+    /* 动画 */
+    --tr: all 0.3s;
 
     /* 中性色 */
     --gray-0: #202020;
@@ -31,4 +41,5 @@
     --padding-8: 8px;
     --padding-12: 12px;
     --padding-16: 16px;
+    --padding-20: 20px;
 }

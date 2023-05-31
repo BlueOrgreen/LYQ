@@ -1,15 +1,22 @@
-import React, { useMemo } from "react";
+import React from "react";
 import styles from './index.module.css';
 import clsx from "clsx";
 
-const YFButton = ({ children, type, size }) => {
-    console.log('YFButton', type);
+const YFButton = ({ className, children, type, size, style, onClick }) => {
 
     return (
-        <button className={clsx(
+        <button style={...style} className={clsx(
+            className,
             styles.btn,
-            size === "big" ? styles.big : size === "small" ? styles.small : "" 
-        )}>
+            size === "big" ? styles.big : size === "small" ? styles.small : "",
+            type === "primary" ? styles.primary 
+                : type === "secondary" ?  styles.secondary 
+                : type === "cprimary" ? styles.cprimary
+                : type === "csecondary" ? styles.csecondary
+                : ""
+        )}
+            onClick={onClick}
+        >
             {children}
         </button>
     )

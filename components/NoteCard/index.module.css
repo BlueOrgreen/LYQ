@@ -1,0 +1,66 @@
+.noteCard {
+    @apply 2xl:tw-w-[320px] xl:tw-w-2/5 lg:tw-w-[488px] tw-w-screen;
+    @apply 2xl:tw-h-[260px] xl:tw-h-[320px] lg:tw-h-[420px] tw-h-[300px];
+    @apply tw-my-[24px] tw-mx-[24px] tw-flex tw-flex-col tw-cursor-pointer;
+    @apply tw-px-[20px] tw-py-[12px] tw-relative tw-select-none;
+    transition: all 0.5 ease-in-out;
+}
+
+.noteCard.active {
+    @apply tw-border-[1px] tw-border-solid;
+    border-color: var(--primary-color);
+}
+
+.title {
+    @apply tw-flex tw-justify-between;
+    color: var(--gray-1);
+}
+
+.content {
+    @apply tw-mt-[25px] tw-font-hpscw3;
+    @apply tw-text-ellipsis tw-overflow-hidden;
+    /* background-color: red; */
+    height: 68%;;
+    color: var(--gray-1);
+    /* display: -webkit-box; 
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7; */
+}
+
+
+.tail {
+    @apply tw-flex tw-justify-between tw-absolute tw-left-0 -tw-bottom-2 tw-px-[20px] tw-mb-[12px];
+    color: var(--gray-2);
+    width: 100%;
+}
+
+.icon {
+    @apply tw-text-[24px] 2xl:tw-text-[20px];
+    
+}
+
+.iconLove {
+    @apply tw-cursor-pointer;
+    transform: var(--tr);
+}
+
+.iconLove:hover {
+    color: var(--like);
+}
+
+.tailLeft {
+    @apply tw-flex;
+}
+
+.iconTalk {
+    @apply tw-cursor-pointer;
+    @apply tw-ml-[20px]
+}
+
+.iconText {
+    @apply tw-cursor-pointer tw-ml-[4px];
+}
+
+.author {
+    @apply tw-font-kaiti tw-text-[20px] 2xl:tw-text-[16px]  tw-font-semibold;
+}

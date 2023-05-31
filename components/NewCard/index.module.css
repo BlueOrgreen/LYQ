@@ -1,0 +1,92 @@
+.newCard {
+    @apply tw-mb-[200px];
+}
+
+
+.colors {
+    @apply tw-flex;
+
+}
+
+.colorItem {
+    @apply tw-w-[24px] tw-h-[24px] tw-mr-[8px];
+}
+
+.itemSelect {
+    border: 1px solid rgba(59, 115, 240, 1);
+}
+
+.main {
+    height: 240px;
+    width: 100%;
+    margin-top: 24px;
+    padding: 20px;
+    
+}
+
+.message {
+    @apply tw-font-hpscw3;
+    background: none;
+    resize: none;
+    height: 160px !important;
+    width: 100%;
+    font-size: 15px;
+}
+
+/* 设置滚动条样式 */
+.message::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+  
+.message::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.message::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.name {
+    width: 100%;
+    background: none;
+    border: 1px #fff solid;
+    height: 36px;
+    line-height: 36px;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.labelTitle {
+    @apply tw-font-semibold tw-mt-6;
+    color: var(--gray-1);
+    padding: 10px 0;
+}
+
+.labels {
+    @apply tw-flex tw-flex-wrap tw-items-center;
+}
+
+.labelItem {
+    @apply tw-rounded-[14px] tw-text-[14px] tw-flex tw-justify-center tw-items-center;
+    @apply tw-cursor-pointer tw-px-[2px] tw-py-[8px] tw-mx-[2px] tw-mt-[10px];
+    @apply tw-w-[48px] tw-h-[24px];
+    color: var(--gray-2);
+    margin: 2px 10px 2px 0;
+}
+
+.labelItem.selected {
+    background: #EBEBEB;
+}
+
+.footer {
+    @apply tw-flex tw-fixed tw-bottom-16;
+}
+
+.statement {
+    @apply tw-text-[12px] tw-text-justify;
+    font-size: 12px;
+    color: #949494;
+}

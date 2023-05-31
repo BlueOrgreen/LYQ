@@ -13,12 +13,14 @@ module.exports = {
             lg: '992px',
             xl: '1200px',
             '2xl': '1400px',
+            '3xl': '1600px',
         },
         extend: {
             fontFamily: {
                 // sans: 'var(font-family-base)',
                 firacode: 'var(--font-family-firacode)',
                 kaiti: 'var(--font-family-kaiti)', // 使用: tw-font-kaiti
+                hpscw3: 'var(--font-family-hanziPenSc-W3)',
             },
             colors: {
                 primary: 'var(--primary-color)',
